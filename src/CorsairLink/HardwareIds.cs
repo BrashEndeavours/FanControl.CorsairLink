@@ -5,6 +5,7 @@ public static class HardwareIds
     public static readonly int CorsairVendorId = 0x1b1c;
 
     public static readonly int CorsairCoolitFamilyProductId = 0x0c04;
+    public static readonly int CorsairHydroH100iGTV2ProductId =	0x0c09;
     public static readonly int CorsairCommanderProProductId = 0x0c10;
     public static readonly int CorsairHydroH115iPlatinumProductId = 0x0c17;
     public static readonly int CorsairHydroH100iPlatinumProductId = 0x0c18;
@@ -50,6 +51,7 @@ public static class HardwareIds
         CorsairHydroH60iProXT2ProductId,
         CorsairHydroH60iEliteProductId,
         CorsairHydroH115iEliteProductId,
+        CorsairHydroH100iGTV2ProductId,
 
         // Hydro 3 Fan
         CorsairHydroH150iEliteProductId,
@@ -93,6 +95,7 @@ public static class HardwareIds
             CorsairHydroH60iProXT2ProductId,
             CorsairHydroH60iEliteProductId,
             CorsairHydroH115iEliteProductId,
+            CorsairHydroH100iGTV2ProductId,
         };
 
         public static readonly IReadOnlyCollection<int> Hydro3Fan = new List<int>
